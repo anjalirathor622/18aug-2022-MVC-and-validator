@@ -6,6 +6,6 @@ const adminRoute = express.Router();
 
 
 
-adminRoute.get('/admin/get_classmates',classmateValidator,adminController)
+adminRoute.get('/get_classmates',classmateValidator,adminController)
 
 exports.adminRoute=adminRoute
